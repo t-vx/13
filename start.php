@@ -67,7 +67,7 @@ foreach ($users as $user) {
                                 $follow = $info['f'];
                                 $following = $info['ff'];
                                 $media = $info['m'];
-                                bot('sendMessage', ['disable_web_page_preview' => true, 'chat_id' => $id, 'text' => "Hi ~ \n━━━━━━━━━━━\n*🫂 UserName :* [``` $usern ```](instagram.com/$usern)\n*🫂 Email :* [``` $mail ```]\n*🫂 Followers :* $follow\n*🫂 Following :* $following\n*🫂 Post :* $media\n━━━━━━━━━━━\n*Ch :* [@ZBQBOT]\n*By :* [@bbzzs]",
+                                bot('sendMessage', ['disable_web_page_preview' => true, 'chat_id' => $id, 'text' => "Hi ~ \n━━━━━━━━━━━\n*🫂 UserName :* [$usern](instagram.com/$usern)\n*🫂 Email :* [$mail]\n*🫂 Followers :* $follow\n*🫂 Following :* $following\n*🫂 Post :* $media\n━━━━━━━━━━━\n*Ch :* [@ZBQBOT]\n*By :* [@bbzzs]",
                                 
                                 'parse_mode'=>'markdown']);
                                 
